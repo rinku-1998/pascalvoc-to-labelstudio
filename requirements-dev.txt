@@ -1,0 +1,6 @@
+colorama==0.4.6; python_version >= "3.5" and python_full_version < "3.0.0" and sys_platform == "win32" or sys_platform == "win32" and python_version >= "3.5" and python_full_version >= "3.7.0"
+loguru==0.6.0; python_version >= "3.5"
+toml==0.10.2; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.3.0")
+win32-setctime==1.1.0; sys_platform == "win32" and python_version >= "3.5"
+xmltodict==0.13.0; python_version >= "3.4"
+yapf==0.32.0

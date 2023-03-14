@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pascalvoc2ls"
+version = "0.1.0"
+description = ""
+authors = ["rinku"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+xmltodict = "^0.13.0"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
